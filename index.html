@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahabat Murah</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="assets/img/navbar-brand.png" />
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"> <img class="me-3" src="assets/img/navbar-brand.png" alt="" /> Sahabat Murah</a>
+        <button id="buttonToggle" onclick="buttonToggle()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active fw-semibold" aria-current="page" href="#navbar">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#makanan">Makanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#minuman">Minuman</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#laundry">Laundry</a>
+            </li>
+          </ul>
+          <div>
+            <button onclick="location.href = 'https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0';" type="button" class="btn btn-danger mt-2">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <section id="makanan" class="pt-4">
+        <div class="container">
+          <h2 class="text-center fw-bolder py-1" style="color: #e3151a">Menu Makanan</h2>
+          <h6 id="rowMakanan" class="text-center d-block mx-auto py-2 fw-semibold" style="max-width: 80%">Kami insyaa Allah fokus pada makanan khas Palembang karena founder Sahabat Murah berasal dari Kota Palembang</h6>
+          <div class="row makanan justify-content-center">
+            <div class="col col-makanan-1 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">P. Kapal Selam</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/makanan1.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-makanan-2 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Pempek Ada'an</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/makanan2.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-makanan-3 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Pempek Lenjer</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/makanan3.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-makanan-4 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">P. Kapal Selam</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/makanan1.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="minuman" class="mt-5 bg-light py-2 py-lg-5">
+        <div class="container">
+          <h2 class="text-center fw-bolder py-1" style="color: #e3151a">Menu Minuman</h2>
+          <h6 class="text-center d-block mx-auto py-2 fw-semibold" style="max-width: 80%">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint provident hic laboriosam ipsa illum adipisci.</h6>
+          <div class="row minuman justify-content-center">
+            <div class="col col-minuman-1 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Susu Ketan</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman1.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-2 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Nanas Mutiara</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman2.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-3 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Semangka</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman3.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-4 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Cappucino Cincau</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman4.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-5 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Melon</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman5.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-6 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Lemon Tea</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman6.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-7 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Cappucino Coklat</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman7.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-8 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Kelapa</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman8.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-9 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Susu Kacang Ijo</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman9.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+            <div class="col col-minuman-10 col-10 col-md-6 col-lg-3 mb-2">
+              <h3 class="text-center fw-bold">Es Awan</h3>
+              <img class="d-block mx-auto rounded-3" src="assets/img/minuman10.png" alt="" />
+              <h4 class="text-center mt-2 fw-semibold">Rp 10.000</h4>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae inventore reiciendis rem quas ipsum possimus?</p>
+              <a class="d-block text-center mx-auto py-2 px-3 rounded-3" href="https://api.whatsapp.com/send/?phone=6285268139498&text&type=phone_number&app_absent=0">Order now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="laundry" class="p-4 py-lg-5">
+        <div class="container">
+          <h2 class="text-center text-white">Terima Jasa laundry</h2>
+          <h5 class="fw-light text-center mt-2 fw-semibold text-white">1kg - Rp 4.000</h5>
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 mb-4 mb-lg-0">
+              <img src="assets/img/laundry.jpg" alt="" class="d-block mx-auto text-center rounded-2" />
+            </div>
+            <div class="col-12 col-md-6 text-white">
+              <h5>LAUNDRY SAHABAT MURAH</h5>
+              <h2 class="my-3 my-lg-4 fw-bold">
+                Kenapa harus<br />
+                laundry di Sahabat Murah?
+              </h2>
+              <p>
+                ✅ Murah Harga nya 1KG 4000👍 <br />
+                ✅ Antar Jemput Tinggal Shareloc aja👍<br />
+                ✅ Diusahakan 1 hari dan paling lambat 2 Hari, insyaAllah👍<br />
+                ✅ di Setrika Rapi dan Wangi👍<br /><br />🔰 Setrika + Parfum Cuman 1KG 3000 😍 🛵 Ongkir Antar Jemput Cuman 2000 atau bisa datang ke alamat dibawah ini<br />
+                🏠 Jl. Basuki Rahmat gang 3 RT.02 RW.02 kel.kebonsari kec.sumbersari (Depan Apotik Folia)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="resources/js/bootstrap.min.js"></script>
+  </body>
+</html>

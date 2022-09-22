@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Robto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background-color: red;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  max-width: 15%;
+}
+
+h1 {
+  font-weight: 900 !important;
+}
+
+h2,h3,h4{
+  font-weight: 700 !important;
+}
+
+h5,h6{
+  font-weight: 500 !important;
+}
+
+.makanan p, .minuman p {
+  color: #666666;
+}
+
+#makanan {
+  background-color: white;
+  margin-top: 20px;
+}
+
+#minuman {
+  margin-top: 20px;
+}
+
+#main a:hover {
+  background-color: rgb(215, 15, 19) !important;
+  font-size: 17px;
+  transition: 0.4s;
+}
+
+/* SECTION MAKANAN */
+#makanan .makanan .col{
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px !important;
+}
+
+#makanan .makanan img {
+  max-width: 80%;
+}
+
+#makanan .makanan a{
+  background-color: #E3151A;
+  color: white;
+  max-width: 50%;
+}
+
+/* SECTION MINUMAN */
+#minuman .minuman .col{
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px !important;
+}
+
+#minuman .minuman img {
+  max-width: 80%;
+}
+
+#minuman .minuman a{
+  background-color: #E3151A;
+  color: white;
+  max-width: 50%;
+}
+
+/* SECTION LAUNDRY */
+#laundry {
+  background-color: #E3151A;
+}
+
+#laundry img {
+  max-width: 100%;
+}
+
+@media (min-width: 600px) {
+  #makanan .makanan .col{
+    max-width: 49%;
+    padding: 20px 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  #makanan .makanan .col-makanan-1, #makanan .makanan .col-makanan-2, #makanan .makanan .col-makanan-3{
+    margin-right: 1%;
+  }
+
+  #makanan .makanan img {
+    max-width: 100%;
+  }
+
+  /* SECTION MINUMAN */
+  #minuman .minuman .col{
+    max-width: 49%;
+    padding: 20px 15px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  }
+
+  #minuman .minuman .col-minuman-1, #minuman .minuman .col-minuman-2, #minuman .minuman .col-minuman-3, #minuman .minuman .col-minuman-5, #minuman .minuman .col-minuman-6, #minuman .minuman .col-minuman-7, #minuman .minuman .col-minuman-9{
+    margin-right: 1%;
+  }
+
+  #minuman .minuman img {
+    max-width: 100%;
+  }
+
+  /* SECTION LAUNDRY */
+  #laundry img {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 800px) {
+  #makanan .makanan .col{
+    max-width: 49%;
+  }
+
+  #makanan .makanan .col-makanan-1, #makanan .makanan .col-makanan-2, #makanan .makanan .col-makanan-3{
+    margin-right: 1%;
+  }
+  #makanan .makanan img {
+    max-width: 100%;
+  }
+
+  #makanan .makanan a{
+    background-color: #E3151A;
+    color: white;
+    max-width: 100%;
+  }
+
+  /* SECTION MAKANAN */
+  #minuman .minuman .col{
+    max-width: 49%;
+  }
+
+  #minuman .minuman .col-minuman-1, #minuman .minuman .col-minuman-2, #minuman .minuman .col-minuman-3, #minuman .minuman .col-minuman-5, #minuman .minuman .col-minuman-6, #minuman .minuman .col-minuman-7, #minuman .minuman .col-minuman-9{
+    margin-right: 1%;
+  }
+  #minuman .minuman img {
+    max-width: 100%;
+  }
+
+  #minuman .minuman a{
+    background-color: #E3151A;
+    color: white;
+    max-width: 100%;
+  }
+
+  /* SECTION LAUNDRY */
+  #laundry img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) { 
+  #makanan {
+    margin-top: 80px;
+  }
+  
+  #makanan .makanan .col{
+    max-width: 23%;
+  }
+
+  #makanan .makanan .col-makanan-1, #makanan .makanan .col-makanan-2, #makanan .makanan .col-makanan-3{
+    margin-right: 2%;
+  }
+  
+  #makanan .makanan img {
+    max-width: 100%;
+  }
+
+  /* SECTION MINUMAN */
+  #minuman .minuman .col{
+    max-width: 23%;
+  }
+
+  #minuman .minuman .col-minuman-1, #minuman .minuman .col-minuman-2, #minuman .minuman .col-minuman-3, #minuman .minuman .col-minuman-5, #minuman .minuman .col-minuman-6, #minuman .minuman .col-minuman-7, #minuman .minuman .col-minuman-9{
+    margin-right: 2%;
+  }
+  
+  #minuman .minuman img {
+    max-width: 100%;
+  }
+}
