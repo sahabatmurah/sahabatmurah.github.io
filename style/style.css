@@ -10,7 +10,7 @@
 }
 
 *::selection {
-  background-color: red;
+  background-color: #2596be;
   color: white;
 }
 
@@ -49,7 +49,7 @@ h5,h6{
 }
 
 #main a:hover {
-  background-color: rgb(215, 15, 19) !important;
+  background-color: #2596be !important;
   font-size: 17px;
   transition: 0.4s;
 }
@@ -68,7 +68,7 @@ h5,h6{
 }
 
 #makanan .makanan a{
-  background-color: #E3151A;
+  background-color: #2596be;
   color: white;
   max-width: 50%;
 }
@@ -87,14 +87,14 @@ h5,h6{
 }
 
 #minuman .minuman a{
-  background-color: #E3151A;
+  background-color: #2596be;
   color: white;
   max-width: 50%;
 }
 
 /* SECTION LAUNDRY */
 #laundry {
-  background-color: #E3151A;
+  background-color: #2596be;
 }
 
 #laundry img {
@@ -150,7 +150,7 @@ h5,h6{
   }
 
   #makanan .makanan a{
-    background-color: #E3151A;
+    background-color: #2596be;
     color: white;
     max-width: 100%;
   }
@@ -168,7 +168,7 @@ h5,h6{
   }
 
   #minuman .minuman a{
-    background-color: #E3151A;
+    background-color: #2596be;
     color: white;
     max-width: 100%;
   }
